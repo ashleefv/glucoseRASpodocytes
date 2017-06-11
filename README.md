@@ -3,8 +3,6 @@ A mathematical model of glucose-stimulated local renin-angiotensin system in pod
 
 [![DOI](https://zenodo.org/badge/79126249.svg)](https://zenodo.org/badge/latestdoi/79126249)
 
-![GUI screenshot](thumbnail.png)
-
 ## Overview
 The code for the model is provided as is, without guarantees and without support. The corresponding manuscript describing the model is currently under review for publication.
 
