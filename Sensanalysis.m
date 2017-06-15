@@ -40,12 +40,12 @@ bar(x,(B./max(SensAnalysisNG))');
 set(gca,'Fontsize',10);
 grid on;
 ylabel('Sensitivity of ANG II','Fontsize',10)%,'FontWeight','Bold');
-legend('NG Sensitivity','HG Sensitivity','Fontize',10,'Location','Northeast')
+legend('NG Sensitivity','HG Sensitivity','Location','Northeast')
 
 ax = gca;
 ax.XTickLabel = {'c_{AItoII}','k_{AGT}','V_m','c_{AT1}','c_{APA}','c_{AT2}','c_{ACE2}','c_{NEP}','Fontsize',18,'FontWeight','Bold'};
 
-set(gcf, 'Color', 'w','Units', 'inches', 'Position', [0 0 6 4]);
+%set(gcf, 'Color', 'w','Units', 'inches', 'Position', [0 0 6 4]);
 %export_fig('C:/Users/Minu/Desktop/minu_pilvankar_CHE5110/matlab/Figures/PaperVersion/SensitivityWithkAGT64', '-pdf', '-png', '-eps', '-tiff');
 
 end

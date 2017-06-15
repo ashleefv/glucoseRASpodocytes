@@ -1,27 +1,12 @@
-function out = glucoseRASss05(coefficients,GLU,baseline,scenario,c_nep,c_ace2,c_apa,c_at2,printoutput)
+function out = glucoseRASssA3(coefficients,GLU,baseline,scenario,c_nep,c_ace2,c_apa,c_at2,printoutput)
 
 for i = 1:length(GLU)
     % The scenarios intpret glucose dependent functional forms with
     % variable numbers of input coefficients to transform to the 9 needed
     % coefficients to solve the glucoseRASss model
-if scenario == 1
-    coef_output = scenarioM1(coefficients,GLU(i));
-elseif scenario == 2
-    coef_output = scenarioM2(coefficients, GLU(i));
-elseif scenario == 3
-    coef_output = scenarioM3(coefficients, GLU(i));
-elseif scenario == 4 
-    coef_output = scenarioM5(coefficients, GLU(i));
-elseif scenario == 5
-    coef_output = scenarioM5(coefficients, GLU(i));
 
-elseif scenario == 0
-    coef_output = scenarioM0(coefficients);    
-else
-    coef_output = coefficients; %no glucose dependence, scenario0
-end
+ coef_output = Approach3(coefficients, GLU(i));
 
-%kAGT = coef_output(1);
 kAGT = coef_output(1);
 c_ACE = coef_output(2);
 c_at1 = coef_output(3);

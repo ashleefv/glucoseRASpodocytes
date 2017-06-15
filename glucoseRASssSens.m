@@ -6,7 +6,6 @@ if scenario == 1
   coef_output = coefficients;
 kAGT = coef_output(2);
 c_ACE = coef_output(3);
-% c_nonace = coef_output(3);
 c_nep = coef_output(4);
 c_ace2 = coef_output(5);
 c_apa = coef_output(6);

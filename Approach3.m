@@ -1,4 +1,4 @@
-function output = scenarioM5(coefficients,GLU)
+function output = Approach3(coefficients,GLU)
    kAGT = coefficients(1);
     c_ACEB = coefficients(2);
     c_at1B = coefficients(3);

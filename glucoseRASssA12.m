@@ -1,4 +1,4 @@
-function out = glucoseRASss(coefficients,GLU,baseline,scenario,printoutput)
+function out = glucoseRASssA12(coefficients,GLU,baseline,scenario,printoutput)
 
 for i = 1:length(GLU)
     % The scenarios intpret glucose dependent functional forms with
@@ -21,7 +21,6 @@ end
 
 kAGT = coef_output(2);
 c_ACE = coef_output(3);
-%c_nonace = coef_output(3);
 c_nep = coef_output(4);
 c_ace2 = coef_output(5);
 c_apa = coef_output(6);
