@@ -18,7 +18,7 @@ M. R. Pilvankar, M. A. Higgins, A. N. Ford Versypt, Mathematical Model for Gluco
 
 ### Main files
 
-* _____.m
+* param_estimation_Approach1and2.m. Runs the model to estimate the parameters using Approach 1 and Appraoch 2 (described in the manuscript). The simulation results compare the change in concentrations of ANG II with increasing glucose for Approach 1 and different scenarios of Approach 2. 
    Runs the model 
 
 ### Supplementary files
