@@ -18,13 +18,28 @@ M. R. Pilvankar, M. A. Higgins, A. N. Ford Versypt, Mathematical Model for Gluco
 
 ### Main files
 
-* param_estimation_Approach1and2.m. Runs the model to estimate the parameters using Approach 1 and Appraoch 2 (described in the manuscript). The simulation results compare the change in concentrations of ANG II with increasing glucose for Approach 1 and different scenarios of Approach 2. 
-   Runs the model 
+* param_estimation_Approach1and2.m. Runs the model to estimate the parameters using Approach 1 and Appraoch 2 (described in the manuscript). The simulation results compare the change in concentration of Angiotensin II (ANG II) with increasing glucose for Approach 1 and different scenarios of Approach 2. The results are compared using root mean squared error (RMSE) using a data set from literature.
+* param_estimation_Approach3.m. Runs the model to estimate the parameters using Approach 3 (described in the manuscript). The simulation results compare the change in concentration of ANG II with increasing glucose for Approach 3.
+* Sensanalysis.m. Runs sensitivity analysis on ANG II with respect to all the parameters. The resulting plots show sensitivity of all the parameters at normal and high glucose states.
 
 ### Supplementary files
  
-* .mat files. 
-   Needed to run the programs to pass data, parameters, and calculated values.
+* glucoseRASssA12.m. Runs through param_estimation_Approach1and2.m and returns ANG II concentration by solving the set of equations. It is used to pass different set of coefficients for each case of Approach 1 and 2.
+* glucoseRASssA3.m. Runs through param_estimation_Approach1and2.m and returns ANG II concentration by solving the set of equations. It is used to pass different set of coefficients for Approach 3.
+* glucoseRASssSens.m. Runs through param_estimation_Approach1and2.m and returns ANG II concentration by solving the set of equations. It is used to pass the parameter values at NG and HG with a devaition to do the sensitivity analysis.
+
+ Needed to run the programs to pass data, parameters, and calculated values.
+* scenario0.m.
+* scenario1.m
+* scenario2.m
+* scenario3.m
+* scenario4.m
+* Approach3.m
+* NG.mat
+* NGHG.mat
+* scenario0.m
+  
+ 
     
 * export_fig.m
    MATLAB package to nicely export figures.
