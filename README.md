@@ -29,17 +29,16 @@ M. R. Pilvankar, M. A. Higgins, A. N. Ford Versypt, Mathematical Model for Gluco
 * glucoseRASssSens.m. Runs through param_estimation_Approach1and2.m and returns ANG II concentration by solving the set of equations. It is used to pass the parameter values at NG and HG with a devaition to do the sensitivity analysis.
 
  Needed to run the programs to pass data, parameters, and calculated values.
-* scenario0.m.
+* scenario0.m
 * scenario1.m
 * scenario2.m
 * scenario3.m
 * scenario4.m
+* scenarioM0.m.
 * Approach3.m
 * NG.mat
 * NGHG.mat
-* scenario0.m
   
- 
     
 * export_fig.m
    MATLAB package to nicely export figures.
