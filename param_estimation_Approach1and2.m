@@ -12,7 +12,7 @@ Xdata = [5, 25, 40]; % GLU %mmol/L
 Ydata = [1, 1.4, 2.1];% ANGII
 e = [0.09, 0.08, 0.58];
 %figure(1)
-l = 3 %to generate ANG II concentration plot in figure 11
+
 h = errorbar(Xdata,Ydata,e,'kx','Markersize',12,'Linewidth',2);
 s = h.LineWidth;
 h.LineWidth = 1.5;
@@ -118,7 +118,7 @@ elseif scenario == 1
  plot(X(1:3:end),Y_all((1:3:end),3),'X','Linewidth',2)
   elseif scenario == 4
 %yyaxis right
- plot(X(1:3:end),Y_all((1:3:end),l),'d-','Color',[ 0.4660    0.6740    0.1880],'LineWidth',2)
+ plot(X(1:3:end),Y_all((1:3:end),3),'d-','Color',[ 0.4660    0.6740    0.1880],'LineWidth',2)
  xlabel('Glucose (mM)','Fontsize',10)%,'FontWeight','Bold')
 ylabel('ANGII (nM)','Fontsize',10)
 axis([5 40 0 Inf])%,'FontWe
@@ -133,7 +133,7 @@ legend('App 2: Scen 0',...
 
 elseif scenario == 5
 %yyaxis left
-plot(X(1:3:end),Y_all((1:3:end),l),'x-b','Linewidth',2,'MarkerSize',5)
+plot(X(1:3:end),Y_all((1:3:end),3),'x-b','Linewidth',2,'MarkerSize',5)
 xlabel('Glucose (mM)','Fontsize',10)%,'FontWeight','Bold')
 ylabel('ANGII (nM)','Fontsize',10)%,'FontWeight','Bold')
 %legend('Approach 1','Fontsize',10, 'Location','Southeast')

@@ -9,7 +9,7 @@ Xdata = [5, 25, 40]; % GLU %mmol/L
 Ydata = [1, 1.4, 2.1];% ANGII
 e = [0.09, 0.08, 0.58];
 %figure(1)
-l = 1 %to generate ANG II concentration plot in figure 11
+
 h = errorbar(Xdata,Ydata,e,'kx','Markersize',12,'Linewidth',2);
 s = h.LineWidth;
 h.LineWidth = 1.5;
@@ -37,7 +37,7 @@ scenario = yy;
 %% Parameter estimation routine lsqcurvefit
 
 % %Vm= Vma*GLU + Vmb; c_ace=c_aceA*GLU + c_aceB;c_at1=c_at1A*GLU + c_at1B
-      coefficientsguess= [ 1.177568154554772e-01     1.146519658757140e-01,...
+coefficientsguess= [ 1.177568154554772e-01     1.146519658757140e-01,...
           2e-12        3.033621116991067e+02,...
         3.432927517238616e-03     3.345022358146005e-03                         2e-12,...
           3.784671163979920e+00];

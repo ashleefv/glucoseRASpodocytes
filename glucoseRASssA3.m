@@ -4,9 +4,16 @@ for i = 1:length(GLU)
     % The scenarios intpret glucose dependent functional forms with
     % variable numbers of input coefficients to transform to the 9 needed
     % coefficients to solve the glucoseRASss model
+if scenario == 5
+    coef_output = Approach3(coefficients, GLU(i));
 
- coef_output = Approach3(coefficients, GLU(i));
+elseif scenario == 0
+    coef_output = scenarioM0(coefficients);    
+else
+    coef_output = coefficients; %no glucose dependence, scenario0
+end
 
+%kAGT = coef_output(1);
 kAGT = coef_output(1);
 c_ACE = coef_output(2);
 c_at1 = coef_output(3);
