@@ -20,7 +20,8 @@ M. R. Pilvankar, M. A. Higgins, A. N. Ford Versypt, Mathematical Model for Gluco
 
 * param_estimation_Approach1and2.m. Runs the model to estimate the parameters using Approach 1 and Appraoch 2 (described in the manuscript). The simulation results compare the change in concentration of Angiotensin II (ANG II) with increasing glucose for Approach 1 and different scenarios of Approach 2. The results are compared using root mean squared error (RMSE) using a data set from literature.
 * param_estimation_Approach3.m. Runs the model to estimate the parameters using Approach 3 (described in the manuscript). The simulation results compare the change in concentration of ANG II with increasing glucose for Approach 3.
-* Sensanalysis.m. Runs sensitivity analysis on ANG II with respect to all the parameters. The resulting plots show sensitivity of all the parameters at normal and high glucose states.
+* Sensanalysis.m. Runs local sensitivity analysis on ANG II with respect to all the parameters. The resulting plots show sensitivity of all the parameters at normal and high glucose states.
+* globalsensitivity.m. Runs global sensitivity analysis on ANG II with respect to all the parameters. The resulting plots show two sensitivity indices S_i (ﬁrst-order index) and S_{Ti} (total-order index which accounts for higher-order and non-linear interactions between the parameters) for ANG II with respect to each input parameter.
 
 ### Supplementary files
  
@@ -38,6 +39,13 @@ M. R. Pilvankar, M. A. Higgins, A. N. Ford Versypt, Mathematical Model for Gluco
 * Approach3.m
 * NG.mat
 * NGHG.mat
+
+For running globalsensitivity.m
+* efast_sd.m
+* efast_ttest.m
+* parameterdist.m
+* Parameter_settings_eFAST.m
+* SETFREQ.m
   
     
 * export_fig.m
