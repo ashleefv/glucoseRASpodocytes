@@ -40,7 +40,7 @@ M. R. Pilvankar, M. A. Higgins, A. N. Ford Versypt, Mathematical Model for Gluco
 * NG.mat
 * NGHG.mat
 
-For running globalsensitivity.m
+ For running globalsensitivity.m
 * efast_sd.m
 * efast_ttest.m
 * parameterdist.m
