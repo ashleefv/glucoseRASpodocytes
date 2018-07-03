@@ -14,7 +14,7 @@ Oklahoma State University.
 Corresponding author: A. N. Ford Versypt, ashleefv@okstate.edu
 
 ## Related Publication for Model Details
-M. R. Pilvankar, M. A. Higgins, A. N. Ford Versypt, Mathematical Model for Glucose Dependence of the Local Renin-Angiotensin System in Podocytes, submitted 2017.
+M. R. Pilvankar, M. A. Higgins, A. N. Ford Versypt, Mathematical Model for Glucose Dependence of the Local Renin-Angiotensin System in Podocytes, Bulletin of Mathematical Biology, 80(4):880-905, 2018.
 
 ### Main files
 
