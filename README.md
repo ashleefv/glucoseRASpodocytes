@@ -4,7 +4,7 @@ A mathematical model of glucose-stimulated local renin-angiotensin system in pod
 [![DOI](https://zenodo.org/badge/94033856.svg)](https://zenodo.org/badge/latestdoi/94033856)
 
 ## Overview
-The code for the model is provided as is, without guarantees and without support. The corresponding manuscript describing the model is currently under review for publication.
+The code for the model is provided as is, without guarantees and without support. 
 
 ## Glucose RAS in Podocytes Model
 ### Authors
